@@ -1,7 +1,25 @@
 aid: aceatherapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aceatherapeutics.png
 name: aceatherapeutics
-description: aceatherapeutics is a company surfaced as a portfolio company of qiming and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: ACEA Therapeutics (aceatherapeutics.com) is a clinical-stage biopharmaceutical
+  company developing innovative small-molecule and antibody-drug-conjugate treatments across
+  oncology, autoimmune, and antiviral therapeutic areas, with product candidates including
+  Olgotrelvir, Abivertinib, AC0058, STI-6129, and AC0939. Surfaced as a portfolio company of
+  Qiming Venture Partners and added to the API Evangelist network. As a pharmaceutical company
+  oriented toward patients, physicians, and investors, ACEA Therapeutics publishes no public
+  developer API, documentation, SDK, or technical integration surface at this time; this profile
+  captures its verifiable web/domain footprint only.
 url: https://raw.githubusercontent.com/api-evangelist/aceatherapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +32,12 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Biopharmaceutical
+- Pharmaceuticals
+- Healthcare
+- Oncology
+- Life Sciences
+- Drug Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aceatherapeutics-domain-security.yml
 - type: Website
   url: https://aceatherapeutics.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
